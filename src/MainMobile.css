@@ -1,0 +1,67 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.mobile-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 중앙 컨텐츠 묶기 */
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px; /* 텍스트와 버튼 사이 간격 */
+}
+
+.mobile-main-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #a4a4a4;
+  text-align: center;
+  line-height: 1.05;
+}
+
+.mobile-enter-btn {
+  width: 130px;
+  height: 36px;
+  background-color: #0037FF;
+  color: #F1F1F1;
+  border: none;
+  border-radius: 68px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobile-enter-btn:hover {
+  background-color: #002ECC;
+}
+
+.mobile-bottom-text {
+  position: absolute;
+  bottom: 46px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: 500;
+  color: #a4a4a4;
+  text-align: center;
+
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+}

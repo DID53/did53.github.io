@@ -1,0 +1,114 @@
+/* 필요한 다른 굵기도 같은 방식으로 추가할 수 있습니다. */
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  margin: 0;
+}
+
+.line {
+  width: 1364px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: white;
+  overflow-x: hidden;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.medium {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+main {
+  max-width: 1440px;
+  background: white;
+}
+
+header {
+  width: 1364px;
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+header p {
+  font-size: 28px;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* 수직 가운데 정렬 */
+  justify-content: flex-start;
+  /* 좌우 끝으로 배치 */
+  padding: 0 15px;
+  /* 양쪽 여백 */
+  align-items: flex-start;
+  margin-top: 20px;
+
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.intro {
+  margin: 52px 40px 53px 40px;
+}
+
+/* .subjects {
+  display: flex;
+  gap: 31px;
+  width: fit-content;             
+  margin-left: auto;         
+  margin-top: 0.8rem;         
+  justify-content: center; 
+  border: 5px solid;
+  border-color: orchid;
+}
+
+.subjects button {
+  width: 170px;
+  height: 35px;
+  border: 1px solid #6a6a6a;
+  border-radius: 20px;
+  background: #fff;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+} */
+
+.schedule-image {
+  margin: 50px 145px 50px 72px;
+}
+
+.image-section {
+  width: 100%;
+  max-width: 1440px;
+  /* 전체 레이아웃 최대 너비 */
+  margin: 0 auto;
+  margin-top: 3rem;
+  /* 가운데 정렬 */
+}

@@ -1,0 +1,39 @@
+.mobile-body {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-container {
+  width: 375px;
+  min-height: 100vh; /* 최소 높이를 화면 전체로 */
+  background-color: #ffffff; /* 앱 배경색 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과로 구분감 주기 */
+  /* 필요에 따라 다른 스타일 추가 */
+}/* 이전에 만들었던 헤더 스타일 */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header-left p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home_mobile {
+  width: 372px;
+}

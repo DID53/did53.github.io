@@ -1,0 +1,27 @@
+.subject-buttons {
+  display: flex;
+  /* display: inline-block; */
+  gap: 194px;
+  margin-top: 102px;
+  margin-bottom: 104px;
+  justify-content: center;
+}
+
+.subject-btn {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  background-color: transparent;
+}
+
+.subject-btn:hover {
+  transform: translateY(-2px);
+  background-color: #EBEFFF;
+}

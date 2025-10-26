@@ -1,0 +1,116 @@
+.main {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    /* 가운데 정렬 */
+}
+
+.intro-img {
+    display: block;
+    margin: 0 auto;
+    width: 1275px;
+    margin-top: 140px;
+}
+
+/* 카드 css */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 82px;
+  justify-content: center;
+  margin-top: 72px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: fit-content;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.product-img {
+  width: 372px;
+  height: 285px;
+  object-fit: cover;
+  filter: grayscale(100%); /* 처음에 흑백 */
+  transition: filter 0.5s ease; /* 서서히 변하게 */
+  cursor: pointer;
+}
+
+.product-img:hover {
+  filter: grayscale(0%);
+}
+
+.product-title {
+  margin-top: 19px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.product-names {
+  display: flex;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.product-name {
+  margin: 4px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* 모달 css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);  /* 반투명 배경 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 1200px;
+  width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: center;
+  position: relative;
+
+  scrollbar-width: none;
+}
+
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.product-summary {
+  max-width: 92%;
+  margin-top: 66px;
+}
+
+.product-video {
+  width: 800px;
+  height: 450px;
+}
