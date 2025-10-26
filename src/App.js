@@ -15,7 +15,6 @@ export default function App() {
       <Routes>
         {/* <Route path="/" element={<Main />}></Route> */}
         <Route path="/" element={<MainWrapper />}></Route>
-
         <Route path="/home" element={<HomeWrapper />}></Route>
 
         <Route path="/smart-design" element={<SmartDesignWrapper />}></Route>

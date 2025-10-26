@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://DID53.github.io",
+  "homepage": "http://did53.github.io",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
