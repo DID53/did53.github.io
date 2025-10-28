@@ -4,9 +4,10 @@ import HomeWrapper from "./HomeWrapper";
 import SmartDesignWrapper from "./SmartDesignWrapper";
 import ScrollToTop from "./ScrollToTop";
 import CapstoneDesign from "./components/CapstoneDesign/CapstoneDesign";
-import UXDesign from "./components/UXDesign/UXDesign";
+import UXDesignWrapper from "./UXDesignWrapper";
 import "./style.css";
 import SmartDesignDetail from "./components/SmartDesign/SmartDesignDetail";
+import UXDesignDetail from "./components/UXDesign/UXDesignDetail";
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ export default function App() {
 
         <Route path="/capstone-design" element={<CapstoneDesign />}></Route>
 
-        <Route path="/UX-design" element={<UXDesign />}></Route>
+        <Route path="/UX-design" element={<UXDesignWrapper />}></Route>
+        <Route path="/UX-design/:id" element={<UXDesignDetail />}></Route>
       </Routes>
     </HashRouter>
   );

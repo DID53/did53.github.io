@@ -65,13 +65,13 @@ const Dropdown = () => {
           </li>
           <hr style={{ margin: '0', border: 'none', borderTop: '1px solid #eee' }} />
           <li onClick={handleLinkClick}>
-            <Link to="/" style={listItemStyle}>
+            <Link to="/capstone-design" style={listItemStyle}>
               Capstone Design
             </Link>
           </li>
           <hr style={{ margin: '0', border: 'none', borderTop: '1px solid #eee' }} />
           <li onClick={handleLinkClick}>
-            <Link to="/" style={listItemStyle}>
+            <Link to="/ux-design" style={listItemStyle}>
               UX Design
             </Link>
           </li>
