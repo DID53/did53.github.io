@@ -4,17 +4,16 @@ import "./Main.css";
 export default function Main() {
   return (
     <div style={{ width: "100%", height: "100%", position: "relative" }}>
-      <img
-        src="images/main_page.gif"
-        alt="main page"
-        className="background-img"
-      />
 
       <div className="center-content">
-        <span className="main-text"> 휘광 <br />輝光 </span>
         <Link to="/home">
-          <button className="enter-btn">ENTER</button>
+          <img
+            src="images/main_page2.png"
+            alt="main page"
+            className="background-img"
+          />
         </Link>
+        <span className="main-text"> 휘광 <br />輝光 </span>
       </div>
 
       <span className="bottom-text">

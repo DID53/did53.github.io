@@ -35,7 +35,8 @@ body {
   z-index: 1000;
   display: flex;
   align-items: center;
-  gap: 207px;
+  /* gap: 207px; */
+  justify-content: space-between;
   height: 120px;
   transform: translateX(-50%);
 }
