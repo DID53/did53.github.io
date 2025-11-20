@@ -8,61 +8,43 @@ html, body, #root {
   width: 100%;
   height: 100%;
   overflow: hidden;
+} 
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../public/images/main_page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.background-img {
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 352px;
-  height: 352px;
-  object-fit: cover;
-  z-index: -1; /* 텍스트와 버튼 위로 */
+.banner-wrapper {
+  width: 1291px;
+  height: 114px;
+  position: relative;
+  margin: 0 auto 0 auto; 
+  padding-top: 50px;
 }
 
-/* 중앙 컨텐츠 묶기 */
-.center-content {
+.top-banner {
+  width: 1291px;
+  height: 114px;
+  display: block;
+}
+  
+.banner-click-area {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  top: 73px;
+  right: 59px;
 
-.main-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;;
-  font-size: 60px;
-  font-weight: 500;
-  color: #a4a4a4;
-  text-align: center;
-  line-height: 1.05;
-}
-
-.enter-btn {
-  width: 162px;
-  height: 46px;
-  background-color: #0037FF;
-  color: #F1F1F1;
-  border: none;
-  border-radius: 68px;
-  font-size: 30px;
+  width: 220px;
+  height: 67px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease-in-out;
+  /* background: rgba(255, 0, 0, 0.3); */
 }
-
-.enter-btn:hover {
-  background-color: #002ECC;
-}
-
+  
 .bottom-text {
   position: absolute;
   bottom: 136px;
@@ -70,7 +52,7 @@ html, body, #root {
   transform: translateX(-50%);
   font-size: 20px;
   font-weight: 500;
-  color: #a4a4a4;
+  color: #FFFFFF;
   text-align: center;
 }
 
