@@ -9,7 +9,7 @@ export default function Home() {
       {/* Main */}
       <main>
         <div className="home_row">
-          <img src="images/home_title.png" className="home_photo" />
+          <img src="images/home_title2.png" className="home_photo" />
           <div className="insta-link-wrapper">
             <a
               className="semi-bold insta-link"
