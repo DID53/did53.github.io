@@ -1,5 +1,6 @@
 import Subjects from "./Subjects.js";
 import "./Home.css";
+import "./components/Subject.css"; // CSS 분리 가능
 
 export default function Home() {
   return (
