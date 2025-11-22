@@ -4,26 +4,57 @@ export default function SmartDesignDetail() {
     const data = [
         {
             id: 1,
-            title: "제품명1",
-            image: "images/SmartDesign/product_mobile_1.png",
+            image: "images/empty_image.png",
         },
         {
             id: 2,
-            title: "1440 판넬",
-            image: "images/SmartDesign/product_mobile_2.png",
+            image: "images/empty_image.png",
         },
         {
             id: 3,
-            title: "Ziggleit",
-            image: "images/SmartDesign/product_mobile_3.png",
+            image: "images/empty_image.png",
         },
         {
             id: 4,
-            title: "제품명4",
             image: "images/SmartDesign/product_mobile_4.png",
         },
+        {
+            id: 5,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 6,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 7,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 8,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 9,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 10,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 11,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 12,
+            image: "images/empty_image.png",
+        },
+        {
+            id: 13,
+            image: "images/empty_image.png",
+        },
     ];
-
 
     const { id } = useParams(); // URL의 /SmartDesign/:id 에서 id 가져오기
     const item = data[id - 1]; // id는 1부터 시작한다고 가정

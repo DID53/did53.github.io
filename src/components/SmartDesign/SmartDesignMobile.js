@@ -1,28 +1,76 @@
 // SmartDesignMobile.js
-import "./SmartDesignMobile.css";
+import "../SubjectMobile.css";
 import ProductCardMobile from "../ProductCardMobile";
 
 export default function SmartDesignMobile() {
   const data = [
     {
-      image: "images/SmartDesign/product-card_1.jpg",
-      title: "제품명1",
-      names: ["이름1", "이름2", "이름3", "이름4"],
+      image: "images/empty_image.png",
+      title: "PURIPOT",
+      names: ["김고은", "남한별", "유지승", "이연경"],
     },
     {
-      image: "images/SmartDesign/product-card_2.jpg",
-      title: "1440 판넬",
-      names: ["이름1", "이름2", "이름3", "이름4"],
+      image: "images/empty_image.png",
+      title: "POMI",
+      names: ["우요한", "안예은", "정혜원", "허지운"],
     },
     {
-      image: "images/SmartDesign/product-card_3.png",
-      title: "Ziggleit (1920 판넬)",
+      // summary: "images/SmartDesign/product-summary_3.png",
+      image: "images/empty_image.png",
+      title: "Ziggleit",
       names: ["최새롬", "이혜진", "소민지", "황지해"],
+      // video: "videos/product-video_3.mp4"
     },
     {
+      // summary: "images/SmartDesign/product-summary_4.png",
       image: "images/SmartDesign/product-card_4.png",
-      title: "스디 웹디용 판넬(24MB)",
-      names: ["이름1", "이름2", "이름3", "이름4"],
+      title: "WAGU",
+      names: ["정다원", "김희서", "박지우", "유기성", "김다성"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "Duo Brew",
+      names: ["김민규", "도재용", "허태선", "최은서"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "SENSONIC",
+      names: ["한동윤", "김주영", "안윤수", "이예은"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "DDAKKA",
+      names: ["홍준이", "남수정", "윤예진", "정유빈", "최현석"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "NutriLab",
+      names: ["권서영", "이민영", "이은재", "최서윤"]
+    },
+    {
+      image: "images/empty_image.png",
+      title: "BuddyFit",
+      names: ["손수빈", "정무현", "김은솔", "이지원"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "Ordo",
+      names: ["박진선", "안광준", "유예진", "전시현", "최예준"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "RE:MIN",
+      names: ["김미진", "김서연", "나민석", "안아영", "이재호"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "Zerobin",
+      names: ["김동현", "박소원", "이명준", "원혜림", "최의정"],
+    },
+    {
+      image: "images/empty_image.png",
+      title: "Pillmate",
+      names: ["안소희", "윤바로", "정민서", "유한나"],
     },
   ];
 
@@ -30,7 +78,7 @@ export default function SmartDesignMobile() {
     <div className="mobile-main">
       <img
         className="intro-img"
-        src="images/SmartDesign/intro.png"
+        src="images/SmartDesign/intro_mobile.png"
         alt="intro"
       />
 

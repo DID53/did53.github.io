@@ -1,5 +1,4 @@
 // SmartDesignMobile.js
-import "./UXDesignMobile.css";
 import UXProductCardMobile from "../UXProductCardMobile";
 
 export default function SmartDesignMobile() {
