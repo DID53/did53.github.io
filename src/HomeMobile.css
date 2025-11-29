@@ -9,7 +9,7 @@
   background-color: #ffffff; /* 앱 배경색 */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과로 구분감 주기 */
   overflow-x: hidden; /* 가로 스크롤 방지 */
-
+  margin-bottom: 50px;
 }
 
 .header-container {
