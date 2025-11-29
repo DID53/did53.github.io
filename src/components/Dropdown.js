@@ -36,7 +36,7 @@ const Dropdown = () => {
   return (
     <div ref={dropdownRef} style={{ position: 'relative', display: 'inline-block' }}>
       <button onClick={toggleDropdown} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
-        <FiMenu size={20} />
+        <FiMenu size={30} />
       </button>
 
       {isOpen && (
