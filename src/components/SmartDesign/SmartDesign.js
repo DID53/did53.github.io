@@ -40,7 +40,7 @@ export default function SmartDesign() {
     },
     {
       summary: "images/SmartDesign/A-6-summary.jpg",
-      image: "images/SmartDesign/A-6-1.jpg",
+      image: "images/SmartDesign/A-6.jpg",
       image_detail: "images/empty_image.png",
       title: "SENSONIC",
       names: ["한동윤", "김주영", "안윤수", "이예은"],
