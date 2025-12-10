@@ -61,7 +61,7 @@ export default function CapstoneDesign() {
       names: ["손수빈", "정무현", "김은솔", "이지원"],
     },
     {
-      image: "images/CapstoneDesign/B-3.png",
+      image: "images/CapstoneDesign/B-3-1.png",
       image_detail: "images/empty_image.png",
       title: "Sting Raynis",
       names: ["박진선", "안광준", "유예진", "전시현", "최예준"],
