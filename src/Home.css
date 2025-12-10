@@ -79,7 +79,7 @@ body {
   width: 126px;
   height: 49px;
   background: none;
-  border: 1.5px solid rgba(56, 56, 56, 0.2);
+  border: 1.5px solid #383838;
   border-radius: 24.5px;
   display: flex;
   align-items: center;
