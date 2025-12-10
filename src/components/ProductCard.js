@@ -51,6 +51,14 @@ export default function ProductCard({ summary, image, image_detail, title, names
                         }
 
                         {/* 실제 이미지 */}
+                        {image && (
+                            <img
+                                src={image}
+                                alt={`${title} image`}
+                                className="product-image"
+                            />
+                        )}
+
                         {/* 요약 */}
                         {summary && (
                             <img
