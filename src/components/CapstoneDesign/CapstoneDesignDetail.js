@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-export default function UXDesignDetail() {
+export default function CapstoneDesignDetail() {
     const data = [
         {
             id: 1,

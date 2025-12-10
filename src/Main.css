@@ -42,7 +42,7 @@ html, body, #root {
   width: 220px;
   height: 67px;
   cursor: pointer;
-  /* background: rgba(255, 0, 0, 0.3); */
+  background: rgba(255, 0, 0, 0.3);
 }
   
 .bottom-text {

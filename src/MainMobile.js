@@ -3,7 +3,7 @@ import "./MainMobile.css";
 
 export default function Main() {
   return (
-    <div className="main-container">
+    <div className="main-container mobile-main-container">
       <div className="banner-wrapper">
         <img src="images/main_mobile_bar.png" alt="banner" className="top-banner" />
         <Link to="/home" className="banner-click-area" />
