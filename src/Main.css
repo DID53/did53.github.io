@@ -13,7 +13,7 @@ html, body, #root {
 .main-container {
   width: 100%;
   height: 100vh;
-  background-image: url("../public/images/main_page.jpg");
+  background-image: url("../public/images/main_page.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,26 +23,62 @@ html, body, #root {
 .banner-wrapper {
   width: 1291px;
   height: 114px;
-  position: relative;
-  margin: 0 auto 0 auto; 
-  padding-top: 50px;
+  position: absolute; /* 부모(.main-container)에 대해 절대 위치로 변경 */
+  top: 50px; /* 아래로 50px 이동 */
+  left: 50%;
+  transform: translateX(-50%); /* 가로 중앙 정렬 */
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(217, 217, 217, 0.4); /* #D9D9D9 40% */
+  backdrop-filter: blur(8px); /* 배경 블러 효과 */
+  -webkit-backdrop-filter: blur(8px); /* 사파리 대응 */
+  border-radius: 63.5px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
-.top-banner {
-  width: 1291px;
-  height: 114px;
-  display: block;
+/* 좌측 텍스트: banner-wrapper로부터 64px 떨어짐 */
+.banner-left {
+  position: absolute;
+  left: 64px;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 1;
+  user-select: none;
 }
-  
+
+/* 가운데 텍스트 */
+.banner-center {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+}
+
+/* 클릭 버튼(이미지)을 기존 banner-click-area 위치에 배치 */
 .banner-click-area {
   position: absolute;
-  top: 73px;
+  top: 21px;
   right: 59px;
 
   width: 220px;
   height: 67px;
+  display: block;
   cursor: pointer;
-  background: rgba(255, 0, 0, 0.3);
+  text-decoration: none;
+  background: transparent; /* 디버그용 배경 제거 */
+}
+
+.banner-click-area img {
+  width: 220px;
+  height: 67px;
+  display: block;
+  object-fit: cover;
+  border: 0;
 }
   
 .bottom-text {
@@ -51,7 +87,7 @@ html, body, #root {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
   color: #FFFFFF;
   text-align: center;
 }

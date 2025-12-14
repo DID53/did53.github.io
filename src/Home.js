@@ -14,7 +14,7 @@ export default function Home() {
           <div className="insta-link-wrapper">
             <a
               className="semi-bold insta-link"
-              href="https://www.burgerking.co.kr/home"
+              href="https://www.instagram.com/did25.official/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
 
-        <img src="images/hello.png" className="home_0" />
+        <img src="images/main_page.png" className="home_0" />
         <img src="images/home_1.png" className="home_1" />
         <Subjects />
         <img src="images/home_2.png" className="home_2" />
