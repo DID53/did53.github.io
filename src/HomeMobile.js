@@ -29,11 +29,7 @@ export default function HomeWrapper() {
           </div>
         </div>
 
-        <img
-          src="images/home_mobile.png"
-          className="home_mobile"
-          style={{ marginTop: 80 }}
-        />
+        <img src="images/home_mobile.png" className="home_mobile" />
       </div>
     </div>
   );
