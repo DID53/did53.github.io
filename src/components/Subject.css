@@ -112,8 +112,8 @@
 }
 
 .product-summary {
-  max-width: 100%;
-  /* margin-top: 36px; */
+  max-width: 90%;
+  margin-top: 60px;
 }
 
 .product-video {
