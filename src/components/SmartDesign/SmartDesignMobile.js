@@ -28,7 +28,7 @@ export default function SmartDesignMobile() {
     {
       image: "images/SmartDesign/A-4.jpg",
       summary: "images/SmartDesign/A-4-summary.png",
-      image_detail: "images/SmartDesign/product_detail_4.png",
+      image_detail: "images/empty_image.png",
       title: "WAGU",
       names: ["정다원", "김희서", "박지우", "유기성", "김다성"],
     },
@@ -64,7 +64,7 @@ export default function SmartDesignMobile() {
     {
       image: "images/SmartDesign/B-2.png",
       summary: "images/SmartDesign/B-2-summary.png",
-      image_detail: "images/SmartDesign/B-2-detail.png",
+      image_detail: "images/SmartDesign/B-2-detail.jpg",
       title: "BuddyFit",
       names: ["손수빈", "정무현", "김은솔", "이지원"],
     },
