@@ -7,7 +7,7 @@ export default function UXDesign() {
     {
       image: "images/UXDesign/A-1.jpg",
       summary: "images/UXDesign/A-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/UXDesign/A-1-detail.jpg",
       title: "FISH COCO",
       names: ["김고은", "남한별", "유지승", "이연경"],
     },
@@ -50,7 +50,7 @@ export default function UXDesign() {
     {
       image: "images/UXDesign/A-7.png",
       summary: "images/UXDesign/A-7-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/UXDesign/A-7-detail.jpg",
       title: "FUVE",
       names: ["홍준이", "남수정", "윤예진", "정유빈", "최현석"],
     },
@@ -65,6 +65,7 @@ export default function UXDesign() {
       image: "images/UXDesign/B-2.png",
       summary: "images/UXDesign/B-2-summary.png",
       image_detail: "images/UXDesign/B-2-detail.jpg",
+      video: "videos/UXDesign/B2.mp4",
       title: "BBIBOT",
       names: ["손수빈", "정무현", "김은솔", "이지원"],
     },
@@ -79,6 +80,7 @@ export default function UXDesign() {
       image: "images/UXDesign/B-4.png",
       summary: "images/UXDesign/B-4-summary.png",
       image_detail: "images/empty_image.png",
+      video: "videos/UXDesign/B4.mp4",
       title: "NEULLING",
       names: ["김미진", "김서연", "나민석", "안아영", "이재호"],
     },

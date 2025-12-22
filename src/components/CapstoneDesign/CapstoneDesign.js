@@ -7,7 +7,7 @@ export default function CapstoneDesign() {
     {
       image: "images/CapstoneDesign/A-1.png",
       summary: "images/CapstoneDesign/A-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/A-1-detail.jpg",
       title: "Bean's Lab",
       names: ["김고은", "남한별", "유지승", "이연경"],
     },
@@ -78,14 +78,14 @@ export default function CapstoneDesign() {
     {
       image: "images/CapstoneDesign/B-4.png",
       summary: "images/CapstoneDesign/B-4-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/B-4-detail.jpg",
       title: "MoA Desk",
       names: ["김미진", "김서연", "나민석", "안아영", "이재호"],
     },
     {
       image: "images/CapstoneDesign/B-5.jpg",
       summary: "images/CapstoneDesign/B-5-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/B-5-detail.png",
       title: "FUN MOTION",
       names: ["김동현", "박소원", "이명준", "원혜림", "최의정"],
     },

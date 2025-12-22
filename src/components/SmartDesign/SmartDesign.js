@@ -7,7 +7,7 @@ export default function SmartDesign() {
     {
       image: "images/SmartDesign/A-1.jpg",
       summary: "images/SmartDesign/A-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/A-1-detail.png",
       title: "PURIPOT",
       names: ["김고은", "남한별", "유지승", "이연경"],
     },
@@ -79,14 +79,14 @@ export default function SmartDesign() {
     {
       image: "images/SmartDesign/B-4.png",
       summary: "images/SmartDesign/B-4-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/B-4-detail.jpg",
       title: "RE:MIN",
       names: ["김미진", "김서연", "나민석", "안아영", "이재호"],
     },
     {
       image: "images/SmartDesign/B-5.png",
       summary: "images/SmartDesign/B-5-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/B-5-detail.png",
       title: "Zerobin",
       names: ["김동현", "박소원", "이명준", "원혜림", "최의정"],
     },
