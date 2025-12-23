@@ -7,14 +7,13 @@ export default function SmartDesignMobile() {
     {
       image: "images/SmartDesign/A-1.jpg",
       summary: "images/SmartDesign/A-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/A-1-detail.png",
       title: "PURIPOT",
       names: ["김고은", "남한별", "유지승", "이연경"],
     },
     {
       image: "images/SmartDesign/A-2.jpg",
       summary: "images/SmartDesign/A-2-summary.png",
-      image_detail: "images/empty_image.png",
       title: "POMI",
       names: ["우요한", "안예은", "정혜원", "허지운"],
     },
@@ -28,14 +27,12 @@ export default function SmartDesignMobile() {
     {
       image: "images/SmartDesign/A-4.jpg",
       summary: "images/SmartDesign/A-4-summary.png",
-      image_detail: "images/empty_image.png",
       title: "WAGU",
       names: ["정다원", "김희서", "박지우", "유기성", "김다성"],
     },
     {
       image: "images/SmartDesign/A-5.png",
       summary: "images/SmartDesign/A-5-summary.png",
-      image_detail: "images/empty_image.png",
       title: "Duo Brew",
       names: ["김민규", "도재용", "허태선", "최은서"],
     },
@@ -49,7 +46,6 @@ export default function SmartDesignMobile() {
     {
       image: "images/SmartDesign/A-7.png",
       summary: "images/SmartDesign/A-7-summary.png",
-      image_detail: "images/empty_image.png",
       title: "DDAKKA",
       names: ["홍준이", "남수정", "윤예진", "정유빈", "최현석"],
     },
@@ -57,7 +53,6 @@ export default function SmartDesignMobile() {
       // image: "images/SmartDesign/B-1.jpg",
       image: "images/empty_image.png",
       summary: "images/SmartDesign/B-1-summary.png",
-      image_detail: "images/SmartDesign/B-1-detail.png",
       title: "NutriLab",
       names: ["권서영", "이민영", "이은재", "최서윤"],
     },
@@ -79,14 +74,14 @@ export default function SmartDesignMobile() {
     {
       image: "images/SmartDesign/B-4.png",
       summary: "images/SmartDesign/B-4-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/B-4-detail.jpg",
       title: "RE:MIN",
       names: ["김미진", "김서연", "나민석", "안아영", "이재호"],
     },
     {
       image: "images/SmartDesign/B-5.png",
       summary: "images/SmartDesign/B-5-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/B-5-detail.png",
       title: "Zerobin",
       names: ["김동현", "박소원", "이명준", "원혜림", "최의정"],
     },

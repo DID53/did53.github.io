@@ -14,7 +14,6 @@ export default function SmartDesign() {
     {
       image: "images/SmartDesign/A-2.jpg",
       summary: "images/SmartDesign/A-2-summary.png",
-      image_detail: "images/empty_image.png",
       title: "POMI",
       names: ["우요한", "안예은", "정혜원", "허지운"],
     },
@@ -28,14 +27,12 @@ export default function SmartDesign() {
     {
       image: "images/SmartDesign/A-4.jpg",
       summary: "images/SmartDesign/A-4-summary.png",
-      image_detail: "images/empty_image.png",
       title: "WAGU",
       names: ["정다원", "김희서", "박지우", "유기성", "김다성"],
     },
     {
       image: "images/SmartDesign/A-5.png",
       summary: "images/SmartDesign/A-5-summary.png",
-      image_detail: "images/empty_image.png",
       title: "Duo Brew",
       names: ["김민규", "도재용", "허태선", "최은서"],
     },
@@ -49,7 +46,6 @@ export default function SmartDesign() {
     {
       image: "images/SmartDesign/A-7.png",
       summary: "images/SmartDesign/A-7-summary.png",
-      image_detail: "images/empty_image.png",
       title: "DDAKKA",
       names: ["홍준이", "남수정", "윤예진", "정유빈", "최현석"],
     },
@@ -57,7 +53,7 @@ export default function SmartDesign() {
       // image: "images/SmartDesign/B-1.jpg",
       image: "images/empty_image.png",
       summary: "images/SmartDesign/B-1-summary.png",
-      image_detail: "images/SmartDesign/B-1-detail.png",
+      image_detail: "images/SmartDesign/B-1-detail.jpg",
       title: "NutriLab",
       names: ["권서영", "이민영", "이은재", "최서윤"],
     },

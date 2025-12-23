@@ -8,7 +8,8 @@ export default function ProductCard({
   image_detail,
   title,
   names,
-  video,
+  video1,
+  video2,
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const [loaded, setLoaded] = useState(false);
@@ -52,10 +53,10 @@ export default function ProductCard({
             {/* 스켈레톤 */}
             {!loaded && <Skeleton height={700} borderRadius={8} />}
 
-            {video ? (
+            {video1 ? (
               <div>
                 <video
-                  src={video}
+                  src={video1}
                   className="product-video"
                   loop
                   playsInline
@@ -80,16 +81,31 @@ export default function ProductCard({
                 src={summary}
                 alt={`${title} summary`}
                 className="product-summary"
+                onLoad={() => setLoaded(true)}
               />
             )}
 
-            <img
+            {image_detail && (<img
               src={image_detail}
               alt={title}
               onLoad={() => setLoaded(true)}
               className="modal-img"
               loading="lazy"
             />
+            )}
+
+            {
+              video2 && (<div>
+                <video
+                  src={video2}
+                  className="product-video"
+                  loop
+                  playsInline
+                  autoPlay
+                  controls
+                />
+              </div>)
+            }
           </div>
         </div>
       )}

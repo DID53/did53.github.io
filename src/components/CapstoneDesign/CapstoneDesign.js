@@ -14,7 +14,6 @@ export default function CapstoneDesign() {
     {
       image: "images/CapstoneDesign/A-2.jpg",
       summary: "images/CapstoneDesign/A-2-summary.png",
-      image_detail: "images/empty_image.png",
       title: "Fressence",
       names: ["우요한", "안예은", "정혜원", "허지운"],
     },
@@ -29,14 +28,12 @@ export default function CapstoneDesign() {
     {
       image: "images/CapstoneDesign/A-4.jpg",
       summary: "images/CapstoneDesign/A-4-summary.png",
-      image_detail: "images/CapstoneDesign/A-4-detail.png",
       title: "SOOINK",
       names: ["정다원", "김희서", "박지우", "유기성", "김다성"],
     },
     {
       image: "images/CapstoneDesign/A-5.png",
       summary: "images/CapstoneDesign/A-5-summary.png",
-      image_detail: "images/empty_image.png",
       title: "INGIX",
       names: ["김민규", "도재용", "허태선", "최은서"],
     },
@@ -50,14 +47,13 @@ export default function CapstoneDesign() {
     {
       image: "images/CapstoneDesign/A-7.png",
       summary: "images/CapstoneDesign/A-7-summary.png",
-      image_detail: "images/empty_image.png",
       title: "Bean's Lab",
       names: ["홍준이", "남수정", "윤예진", "정유빈", "최현석"],
     },
     {
       image: "images/CapstoneDesign/B-1.png",
       summary: "images/CapstoneDesign/B-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/B-1-detail.jpg",
       title: "Fludia",
       names: ["권서영", "이민영", "이은재", "최서윤"],
     },
@@ -71,7 +67,6 @@ export default function CapstoneDesign() {
     {
       image: "images/CapstoneDesign/B-3.png",
       summary: "images/CapstoneDesign/B-3-summary.png",
-      image_detail: "images/empty_image.png",
       title: "Sting Raynis",
       names: ["박진선", "안광준", "유예진", "전시현", "최예준"],
     },
