@@ -28,6 +28,7 @@ export default function CapstoneDesign() {
     {
       image: "images/CapstoneDesign/A-4.jpg",
       summary: "images/CapstoneDesign/A-4-summary.png",
+      image_detail: "images/CapstoneDesign/A-4-detail.jpg",
       title: "SOOINK",
       names: ["정다원", "김희서", "박지우", "유기성", "김다성"],
     },

@@ -27,6 +27,7 @@ export default function SmartDesign() {
     {
       image: "images/SmartDesign/A-4.jpg",
       summary: "images/SmartDesign/A-4-summary.png",
+      image_detail: "images/SmartDesign/A-4-detail.jpg",
       title: "WAGU",
       names: ["정다원", "김희서", "박지우", "유기성", "김다성"],
     },

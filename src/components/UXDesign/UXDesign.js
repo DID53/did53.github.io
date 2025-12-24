@@ -33,6 +33,7 @@ export default function UXDesign() {
     {
       image: "images/UXDesign/A-4.png",
       summary: "images/UXDesign/A-4-summary.png",
+      image_detail: "images/UXDesign/A-4-detail.jpg",
       video1: "videos/UXDesign/A4.mp4",
       video2: "videos/UXDesign/A41.mp4",
       title: "ORBIT",
