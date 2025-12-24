@@ -6,7 +6,7 @@ export default function CapstoneDesignDetail() {
       id: 1,
       image: "images/CapstoneDesign/A-1.png",
       summary: "images/CapstoneDesign/A-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/A-1-detail.jpg",
     },
     {
       id: 2,
@@ -31,7 +31,6 @@ export default function CapstoneDesignDetail() {
       id: 5,
       image: "images/CapstoneDesign/A-5.png",
       summary: "images/CapstoneDesign/A-5-summary.png",
-      image_detail: "images/empty_image.png",
     },
     {
       id: 6,
@@ -43,13 +42,12 @@ export default function CapstoneDesignDetail() {
       id: 7,
       image: "images/CapstoneDesign/A-7.png",
       summary: "images/CapstoneDesign/A-7-summary.png",
-      image_detail: "images/empty_image.png",
     },
     {
       id: 8,
       image: "images/CapstoneDesign/B-1.png",
       summary: "images/CapstoneDesign/B-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/B-1-detail.jpg",
     },
     {
       id: 9,
@@ -61,19 +59,18 @@ export default function CapstoneDesignDetail() {
       id: 10,
       image: "images/CapstoneDesign/B-3.png",
       summary: "images/CapstoneDesign/B-3-summary.png",
-      image_detail: "images/empty_image.png",
     },
     {
       id: 11,
       image: "images/CapstoneDesign/B-4.png",
       summary: "images/CapstoneDesign/B-4-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/B-4-detail.jpg",
     },
     {
       id: 12,
       image: "images/CapstoneDesign/B-5.jpg",
       summary: "images/CapstoneDesign/B-5-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/CapstoneDesign/B-5-detail.png",
     },
     {
       id: 13,

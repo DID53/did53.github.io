@@ -6,13 +6,12 @@ export default function SmartDesignDetail() {
       id: 1,
       image: "images/SmartDesign/A-1.jpg",
       summary: "images/SmartDesign/A-1-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/A-1-detail.png",
     },
     {
       id: 2,
       image: "images/SmartDesign/A-2.jpg",
       summary: "images/SmartDesign/A-2-summary.png",
-      image_detail: "images/empty_image.png",
     },
     {
       id: 3,
@@ -30,7 +29,6 @@ export default function SmartDesignDetail() {
       id: 5,
       image: "images/SmartDesign/A-5.png",
       summary: "images/SmartDesign/A-5-summary.png",
-      image_detail: "images/empty_image.png",
     },
     {
       id: 6,
@@ -42,7 +40,6 @@ export default function SmartDesignDetail() {
       id: 7,
       image: "images/SmartDesign/A-7.png",
       summary: "images/SmartDesign/A-7-summary.png",
-      image_detail: "images/empty_image.png",
     },
     {
       id: 8,
@@ -65,13 +62,13 @@ export default function SmartDesignDetail() {
       id: 11,
       image: "images/SmartDesign/B-4.png",
       summary: "images/SmartDesign/B-4-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/B-4-detail.jpg",
     },
     {
       id: 12,
       image: "images/SmartDesign/B-5.png",
       summary: "images/SmartDesign/B-5-summary.png",
-      image_detail: "images/empty_image.png",
+      image_detail: "images/SmartDesign/B-5-detail.png",
     },
     {
       id: 13,
